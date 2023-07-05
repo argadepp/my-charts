@@ -7,10 +7,10 @@ entries:
           url: https://github.com/prometheus-community/helm-charts
     apiVersion: v2
     appVersion: v0.25.0
-    created: "2023-07-05T14:34:52.2720345+05:30"
+    created: "2023-07-05T14:50:54.0775154+05:30"
     description: The Alertmanager handles alerts sent by client applications such
       as the Prometheus server.
-    digest: ccd73f7f1946d03a5d4fa55b50dcc336291ddfafcd6cc86856b06aaa9bc1e6db
+    digest: 985799b87c243b43bbd2183861947b6754f81e98d20482c26d037072289e7e86
     home: https://prometheus.io/
     icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
     keywords:
@@ -35,10 +35,10 @@ entries:
           url: https://github.com/prometheus-community/helm-charts
     apiVersion: v2
     appVersion: v1.4.0
-    created: "2023-07-05T14:34:52.2731763+05:30"
+    created: "2023-07-05T14:50:54.0796704+05:30"
     description: The SNMP Notifier handles alerts coming from Prometheus Alertmanager
       and relay them as SNMP traps.
-    digest: 9afa423851d95714916a67285f702acc339b50d03cc43138b377afe72fb7891f
+    digest: 97cc9a2e1c9d7c175f0fb618b61f5989a0291612dc7b7040f9f6024cee257adb
     home: https://github.com/maxwo/snmp_notifier
     keywords:
     - monitoring
@@ -55,9 +55,9 @@ entries:
   jiralert:
   - apiVersion: v2
     appVersion: v1.3.0
-    created: "2023-07-05T14:34:52.2745961+05:30"
+    created: "2023-07-05T14:50:54.0807541+05:30"
     description: A Helm chart for Kubernetes to install jiralert
-    digest: 61a66a65bc3e5b970f5ed0eef5066851968d2e7fde3176448ad46743a89e02b8
+    digest: 063458c387c7c09fd086c149c94bd4a2d4aba95bf4909f79cfcbfb480a0a14e9
     home: https://github.com/prometheus-community/jiralert
     keywords:
     - monitoring
@@ -74,4 +74,4 @@ entries:
     urls:
     - https://github.com/argadepp/my-charts/jiralert-1.4.1.tgz
     version: 1.4.1
-generated: "2023-07-05T14:34:52.2685256+05:30"
+generated: "2023-07-05T14:50:54.075326+05:30"
