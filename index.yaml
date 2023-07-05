@@ -1,0 +1,77 @@
+apiVersion: v1
+entries:
+  alertmanager:
+  - annotations:
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+    apiVersion: v2
+    appVersion: v0.25.0
+    created: "2023-07-05T14:34:52.2720345+05:30"
+    description: The Alertmanager handles alerts sent by client applications such
+      as the Prometheus server.
+    digest: ccd73f7f1946d03a5d4fa55b50dcc336291ddfafcd6cc86856b06aaa9bc1e6db
+    home: https://prometheus.io/
+    icon: https://raw.githubusercontent.com/prometheus/prometheus.github.io/master/assets/prometheus_logo-cb55bb5c346.png
+    keywords:
+    - monitoring
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: monotek23@gmail.com
+      name: monotek
+    - email: naseem@transit.app
+      name: naseemkullah
+    name: alertmanager
+    sources:
+    - https://github.com/prometheus/alertmanager
+    type: application
+    urls:
+    - https://github.com/argadepp/my-charts/alertmanager-0.33.1.tgz
+    version: 0.33.1
+  alertmanager-snmp-notifier:
+  - annotations:
+      artifacthub.io/links: |
+        - name: Chart Source
+          url: https://github.com/prometheus-community/helm-charts
+    apiVersion: v2
+    appVersion: v1.4.0
+    created: "2023-07-05T14:34:52.2731763+05:30"
+    description: The SNMP Notifier handles alerts coming from Prometheus Alertmanager
+      and relay them as SNMP traps.
+    digest: 9afa423851d95714916a67285f702acc339b50d03cc43138b377afe72fb7891f
+    home: https://github.com/maxwo/snmp_notifier
+    keywords:
+    - monitoring
+    maintainers:
+    - email: maxime.wojtczak.pub@icloud.com
+      name: maxwo
+    name: alertmanager-snmp-notifier
+    sources:
+    - https://github.com/maxwo/snmp_notifier
+    type: application
+    urls:
+    - https://github.com/argadepp/my-charts/alertmanager-snmp-notifier-0.1.1.tgz
+    version: 0.1.1
+  jiralert:
+  - apiVersion: v2
+    appVersion: v1.3.0
+    created: "2023-07-05T14:34:52.2745961+05:30"
+    description: A Helm chart for Kubernetes to install jiralert
+    digest: 61a66a65bc3e5b970f5ed0eef5066851968d2e7fde3176448ad46743a89e02b8
+    home: https://github.com/prometheus-community/jiralert
+    keywords:
+    - monitoring
+    - prometheus
+    - alerting
+    - jiralert
+    maintainers:
+    - email: github@jkroepke.de
+      name: jkroepke
+    - email: zanhsieh@gmail.com
+      name: zanhsieh
+    name: jiralert
+    type: application
+    urls:
+    - https://github.com/argadepp/my-charts/jiralert-1.4.1.tgz
+    version: 1.4.1
+generated: "2023-07-05T14:34:52.2685256+05:30"
